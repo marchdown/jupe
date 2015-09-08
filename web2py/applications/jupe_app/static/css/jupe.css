@@ -15,3 +15,39 @@ h1,h2,h3,h4,h5 { font-family: "Economica", Arial, Helevtica; }
 .page-header {
     border-bottom: 0;
 }
+
+#navigation .navlinks {
+  list-style: none;
+}
+#navigation .navlinks li {
+  display: inline-block;
+  margin-right: 5px;
+}
+#navigation .navlinks li a {
+  display: block;
+  float: left;
+  padding: 0 12px;
+  line-height: 55px;
+  font-weight: bold;
+  color: #777;
+}
+#navigation .navlinks li a:hover {
+  text-decoration: none;
+  color: #444;
+  background: #fcfcfc;
+}
+
+#heading {
+  display: block;
+  width: 100%;
+  height: 580px;
+  padding: 20px 0;
+  background: url('../images/yubki-bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-box-shadow: inset 0 -4px 9px -3px #000;
+  -moz-box-shadow: inset 0 -4px 9px -3px #000;
+  box-shadow: inset 0 -4px 9px -3px #000;
+}
