@@ -1,12 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Economica);
 @@import url(http://fonts.googleapis.com/css?family=Belleza);
 
-body { font-family: Arial, Helvetica; }
-a, a:visited, a:hover, h1,h2,h3,h4,h5 {color: #0A96D5}
+body { font-family: Helvetica, Roboto, Arial; }
+a, a:visited, a:hover, h1,h2,h3,h4,h5 {color: #5394E9}
 a.btn-danger, a.btn-warning, a.btn-success {color:white}
-h1,h2,h3,h4,h5 { font-family: "Economica", Arial, Helevtica; }
+h1,h2,h3,h4,h5 { font-family: Helvetica, Roboto, Arial; text-position:center;}
+
 h2 {font-size:3em;}
 h1 {font-size:5em;}
+img {border-image-width:10px;}
 
 #header {
     margin-top: 40px;
