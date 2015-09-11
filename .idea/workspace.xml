@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e33468b-3ce1-49fd-858d-5eccfaa072fa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web2py/httpserver.log" afterPath="$PROJECT_DIR$/web2py/httpserver.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web2py/applications/jupe_app/static/css/jupe.css" afterPath="$PROJECT_DIR$/web2py/applications/jupe_app/static/css/jupe.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web2py/parameters_8000.py" afterPath="$PROJECT_DIR$/web2py/parameters_8000.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web2py/applications/jupe_app/views/legacy/ryba.html" afterPath="$PROJECT_DIR$/web2py/applications/jupe_app/views/legacy/ryba.html" />
     </list>
     <ignored path="jupe.iws" />
@@ -63,8 +60,8 @@
       <file leaf-file-name="ryba.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web2py/applications/jupe_app/views/legacy/ryba.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.86089647">
-              <caret line="328" column="4" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.8346213">
+              <caret line="173" column="1" selection-start-line="173" selection-start-column="1" selection-end-line="173" selection-end-column="1" />
               <folding>
                 <element signature="n#style#0;n#h3#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -1203,8 +1200,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web2py/applications/jupe_app/views/legacy/ryba.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86089647">
-          <caret line="328" column="4" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.8346213">
+          <caret line="173" column="1" selection-start-line="173" selection-start-column="1" selection-end-line="173" selection-end-column="1" />
           <folding>
             <element signature="n#style#0;n#h3#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
