@@ -1,3 +1,5 @@
 web2py/gluon/*
+httpserver.log
+parameters_8000.py 
 *.log
 *.pid
