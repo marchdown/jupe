@@ -17,6 +17,10 @@
   <script type="text/javascript" language="javascript" charset="utf-8" src="../static/js/bootstrap.min.js"></script>
 
 
+{{def itemlink(name):}}<li>{{=A(name,_href=name)}}</li>{{return}}
+{{def btn():}}{{=BUTTON("   Заказать сейчас",_class="btn btn-danger btn-lg center-block glyphicon glyphicon-shopping-cart",_href="javascript:ajax('/admin/default/check_version',[],'check_version')")}}{{return}}
+
+
 </head>
 
 
@@ -37,6 +41,7 @@
     
     <header id="heading">
         <img src="{{=URL('static/images', 'yubki-text-narrow.jpg')}}" class="img-responsive"></img>
+
       <div class="container text-center ">
 
 
@@ -50,6 +55,8 @@
 
    <div id="main-content">
       <div class="container">
+                  {{btn()}}
+
          <div class="row">
            <div class="col-sm-8">
 			 <!-- слева -->	
@@ -78,6 +85,9 @@
 Никаких жестких правил! Можно снимать, а можно и не снимать – зависит от ситуации. В любом случае, этот момент всегда можно скорректировать: юбка на липучке, надевается и снимается одним движением. Вы просто удобно запахиваете ее на талии!
 <br>
     <button type="button" class="btn btn-danger btn-lg center-block">Заказать сейчас</button>
+                    <br>
+
+
 
 
 </div>
@@ -117,8 +127,7 @@
 
 
           <h3>Теперь выход есть! Инновационная юбка для улицы «Зимнее солнце» </h3>
-    <button type="button" class="btn btn-danger btn-lg center-block">Заказать сейчас</button>
-
+{{btn()}}
 
           <br>
 
@@ -187,18 +196,59 @@
 
 <!-- ещё хвалебный текст-->
     Материалы и технологии Верх - качественная плащевая ткань Внутри - синтепон и спандбонд, чтоб синтепон не сыпался Подкладка – тоже плащевая ткань, т.к. юбка двухсторонняя Идеально ровная строчка Контроль качества на каждом этапе производства Ткани и фурнитура изготовлены в Южной Корее и Восточной Европе по современным технологиям Юбка не промокает, не мнется, не электризуется Легко стирается обычным порошком (выдерживает 500 стирок на деликатной стирке, при этом не теряет объем, благодаря слою спандбонда) Быстро сохнет Несложные пятна можно просто слегка потереть влажной тряпочкой
-</div>
-
-          <button type="button" class="btn btn-danger btn-lg center-block">Заказать сейчас</button>
-
-<a class="button btn btn-primary btn-lg center-block" href="javascript:ajax('/admin/default/check_version',[],'check_version')"><span>Хочу!</span></a>
 
 
+{{btn()}}
 
 
-        </div><!-- @end .row -->
+<h4><i>много юбок раз</i></h4>
+<div class="row">
+    <div class="col-sm-6 col-xs-12">
+        <a href="#" class="thumbnail">
+             <img src="{{=URL('static/images', 'bulk2.jpg')}}" class="img-responsive">
+        </a>
+    </div>
+     <div class="col-sm-6 col-xs-12">
+        <a href="#" class="thumbnail">
+             <img src="{{=URL('static/images', 'bulk3.jpg')}}" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-sm-6 col-xs-12">
+        <a href="#" class="thumbnail">
+             <img src="{{=URL('static/images', 'bulk5.jpg')}}" class="img-responsive">
+        </a>
+    </div>
+
+</div><!-- @end .row -->
+<h4><i>много юбок два</i></h4>
+<div class="row">
+   <div class="col-sm-12 col-md-4">
+      <a href="#" class="thumbnail">
+         <img src="{{=URL('static/images', 'bulk2.jpg')}}">
+      </a>
+   </div>
+   <div class="col-sm-12 col-md-4">
+      <a href="#" class="thumbnail">
+         <img src="{{=URL('static/images', 'bulk3.jpg')}}">
+      </a>
+   </div>
+   <div class="col-sm-12 col-md-4">
+      <a href="#" class="thumbnail">
+         <img src="{{=URL('static/images', 'bulk5.jpg')}}">
+      </a>
+   </div>
+
+</div><!-- @end .row -->
+</div><!-- @end .container -->
+</div><!-- @end .main-content -->
+ <footer id="upside down">
+        <img src="{{=URL('static/images', 'footer-bg.jpg')}}" class="img-responsive"></img>
+
+      <div class="container text-center ">
 
 
-     
- </div>
+
+      </div>
+
+</footer>
 	</body></html>
