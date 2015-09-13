@@ -14,6 +14,10 @@ img {border-image-width:10px;}
 #header {
     margin-top: 40px;
 }
+#footer {
+    background: black url(../static/images/footer-bg.jpg) center no-repeat;
+    margin-bottom: 0px;
+}
 .btn-180 {
     width: 180px;
 }
@@ -28,13 +32,18 @@ img {border-image-width:10px;}
   display: inline-block;
   margin-right: 5px;
 }
+
+#order-now-btn {
+    font-size: 16px;
+
+}
 #navigation .navlinks li a {
   display: block;
   float: left;
   padding: 0 12px;
   line-height: 55px;
   font-weight: bold;
-  color: #777;
+  /*  color: #777; */
 }
 #navigation .navlinks li a:hover {
   text-decoration: none;
