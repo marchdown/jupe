@@ -20,6 +20,7 @@
     <li>{{=A(name,_href=name)}}</li>{{return}}
 {{def btn():}}{{=BUTTON("   Заказать сейчас",_class="btn btn-danger btn-lg center-block order-now-btn",_href="javascript:ajax('/admin/default/check_version',[],'check_version')")}}{{return}}
 
+{{def btn_order():}}{{=BUTTON("   Кнопка, которая (пока) ничего не делает.",_class="btn btn-lg center-block submit-order-btn",_href="javascript:ajax('/admin/default/check_version',[],'check_version')")}}{{return}}
 
 </head>
 
@@ -302,6 +303,7 @@
                             </label>
                             <input type="text" class="form-control">
                         </div>
+                        {{btn_order()}}
                     </div>
                 </div>
             </div>
