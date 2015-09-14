@@ -13,10 +13,22 @@ def jupe1():
 
     return dict(message=jupe_text)
 
-jupe_text = '''новый тренд этой зимы:
-ЮБКА ДЛЯ УЛИЦЫ
+def jupe3():
+    """ page rendered by template simple_examples/index3.html or generic.html"""
 
-Слева: Для тех, кто ненавидит рейтузы
+    return dict(content=jupe_text)
+
+def jupe2():
+    """ page rendered by template jupe2.html or generic.html"""
+
+    return dict(jupe_text=jupe_text)
+
+
+jupe_text = '''
+<h1>новый тренд этой  зимы:
+ЮБКА ДЛЯ УЛИЦЫ</h1>
+
+Слева: <h2>Для тех, кто ненавидит рейтузы</h2>
 Справа: Мы поможем вам грамотно перезимовать
 
 У девушек всегда куча каких-то странных проблем. Так было во все времена. Но особенно их много бывает зимой…
