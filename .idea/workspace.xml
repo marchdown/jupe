@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e33468b-3ce1-49fd-858d-5eccfaa072fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web2py/applications/jupe_app/views/jupe2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web2py/parameters_8000.py" afterPath="$PROJECT_DIR$/web2py/parameters_8000.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web2py/applications/jupe_app/controllers/plain.py" afterPath="$PROJECT_DIR$/web2py/applications/jupe_app/controllers/plain.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web2py/applications/admin/languages/ru.py" afterPath="$PROJECT_DIR$/web2py/applications/admin/languages/ru.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web2py/applications/jupe_app/views/legacy/ryba.html" afterPath="$PROJECT_DIR$/web2py/applications/jupe_app/views/legacy/ryba.html" />
     </list>
     <ignored path="jupe.iws" />
@@ -44,8 +40,8 @@
       <file leaf-file-name="ryba.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web2py/applications/jupe_app/views/legacy/ryba.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54989815">
-              <caret line="105" column="36" selection-start-line="105" selection-start-column="36" selection-end-line="105" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.7539267">
+              <caret line="318" column="3" selection-start-line="318" selection-start-column="3" selection-end-line="318" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -1212,8 +1208,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web2py/applications/jupe_app/views/legacy/ryba.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54989815">
-          <caret line="105" column="36" selection-start-line="105" selection-start-column="36" selection-end-line="105" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.7539267">
+          <caret line="318" column="3" selection-start-line="318" selection-start-column="3" selection-end-line="318" selection-end-column="3" />
           <folding />
         </state>
       </provider>

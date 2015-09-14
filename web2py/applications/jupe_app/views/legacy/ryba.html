@@ -195,13 +195,21 @@
             <br>
 
 
-            <!--текст про заказ  -->
+            <!--текст про заказ
             <ul>
                 <li>выбери юбку</li>
-                <li>поставь галочки в форме заказа</li>
+                <li><i>поставь галочки в форме заказа</i></li>
                 <li> укажи адрес для доставки</li>
                 <li> жди СМСку или электронное письмо об отправке посылки в течение 2 недель.</li>
                 <li>Получи на почте рядом с домом.</li>
+            </ul>
+            -->
+            <ul>
+                <li> выбери модель и цвет юбки</li>
+                <li> укажи электропочту или телефон для связи/</li>
+                <li> укажи имя и адрес для доставки</li>
+                <li> жди СМСку или электронное письмо об отправке посылки в течение 2 недель.</li>
+                <li> получи на почте рядом с домом.</li>
             </ul>
         </div>
         <br>
@@ -213,82 +221,102 @@
         </a>
 
         <div class="row">
+
+            <div class="col-xs-12 col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            Заказать сейчас
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+
+                        <div class="form-group">
+                            <label>
+                                Модель
+                            </label>
+                            <select class="form-control">
+                                <option value="solnce">
+                                    Зимнее солнце
+                                </option>
+                                <option value="lady">
+                                    Офис-Леди
+                                </option>
+                            </select>
+                            <label>
+                                Цвет
+                            </label>
+                            <select class="form-control">
+                                <option value="c1">
+                                    Дебелый
+                                </option>
+                                <option value="c2">
+                                    Мордовый
+                                </option>
+                                <option value="c3">
+                                    В мороженку
+                                </option>
+
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    Сумочка для хранения юбки (+300₽)
+                                </label>
+
+
+                        </div>
+                        <hr>
+                        <i>Куда прислать юбку</i>
+
+                        <div class="form-group">
+                            <label>
+                                Имя
+                            </label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                Адрес
+                            </label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                Почтовый индекс
+                            </label>
+                            <input type="text" class="form-control">
+                        </div>
+
+
+                        <hr>
+                        <i>Куда прислать подтверждение заказа</i>
+
+                        <div class="form-group">
+                            <label>
+                                Электропочта
+                            </label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                Телефон
+                            </label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="col-xs-12 col-md-6">
                 <a href="order_form" class="thumbnail">
                     <img src="{{=URL('static/images', 'yubki4.jpg')}}" class="img-responsive">
                 </a>
             </div>
-            <div class="col-xs-12 col-md-6">
-                <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">
-                Заказать сейчас
-              </h3>
-            </div>
-            <div class="panel-body">
-
-              <div class="form-group">
-                <label>
-                  Модель
-                </label>
-                <select class="form-control">
-                  <option value="solnce">
-                    Зимнее солнце
-                  </option>
-                  <option value="lady">
-                    Офис-Леди
-                  </option>
-                </select>
-                <label>
-                  Цвет
-                </label>
-                <select class="form-control">
-                  <option value="c1">
-                    Дебелый
-                  </option>
-                  <option value="c2">
-                    Мордовый
-                  </option>
-                  <option value="c3">
-                    В мороженку
-                  </option>
-
-                      <label class="checkbox">
-                  <input type="checkbox">
-                  Сумочка для хранения юбки (+300₽)
-                </label>
-
-
-              </div>
-                <hr>
-              <i>Куда вам её прислать</i>
-                <div class="form-group">
-                <label>
-                    Имя
-                </label>
-                <input type="text" class="form-control">
-              </div>
-              <div class="form-group">
-                <label>
-                  Адрес
-                </label>
-                <input type="text" class="form-control">
-              </div><div class="form-group">
-                <label>
-                  Почтовый индекс
-                </label>
-                <input type="text" class="form-control">
-              </div>
-
-          </div>
-
-            </div>
         </div>
-        Юбка. Места, где ставить галочки (размер один из двух, цвет один из трех), Сумочка за доп. плату – да или нет.
+
+        <!-- Юбка. Места, где ставить галочки (размер один из двух, цвет один из трех), Сумочка за доп. плату – да или нет.
         Оформить (присваивается номер заказа и и примерный срок поставки. Поставь галочку "Я принимаю условия"
         Всплывающее окошко с фразой: «С этим товаром обычно заказывают…» + фотка сумочки с подписью: "Сумочка для
         хранения юбки"
-
+-->
 
         <a name="delivery">
             <h2>Доставка и оплата</h2>
